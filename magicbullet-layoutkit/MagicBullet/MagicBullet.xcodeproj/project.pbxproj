@@ -11,12 +11,27 @@
 		BB73C48F5A348D21A6CBF6A4 /* Pods_MagicBulletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82E9CDCAF3B1641A00625C7 /* Pods_MagicBulletUITests.framework */; };
 		BC519C124B6E2123597BBA08 /* Pods_MagicBulletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAC1148CA433C77544C4E35 /* Pods_MagicBulletTests.framework */; };
 		DC76788820127E1500940795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76788720127E1500940795 /* AppDelegate.swift */; };
-		DC76788A20127E1500940795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76788920127E1500940795 /* ViewController.swift */; };
+		DC76788A20127E1500940795 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76788920127E1500940795 /* ProfileViewController.swift */; };
 		DC76788D20127E1500940795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC76788B20127E1500940795 /* Main.storyboard */; };
 		DC76788F20127E1500940795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC76788E20127E1500940795 /* Assets.xcassets */; };
 		DC76789220127E1500940795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC76789020127E1500940795 /* LaunchScreen.storyboard */; };
 		DC76789D20127E1500940795 /* MagicBulletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76789C20127E1500940795 /* MagicBulletTests.swift */; };
 		DC7678A820127E1500940795 /* MagicBulletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678A720127E1500940795 /* MagicBulletUITests.swift */; };
+		DC7678B72012815D00940795 /* MiniProfileLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678B62012815D00940795 /* MiniProfileLayout.swift */; };
+		DC7678BA2012831900940795 /* nick.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC7678B92012831900940795 /* nick.jpg */; };
+		DC7678BC201285BA00940795 /* bernie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC7678BB201285BA00940795 /* bernie.jpg */; };
+		DC7678C52012870D00940795 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678BE2012870C00940795 /* FifthViewController.swift */; };
+		DC7678C62012870D00940795 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678BF2012870C00940795 /* FourthViewController.swift */; };
+		DC7678C72012870D00940795 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678C02012870C00940795 /* ThirdViewController.swift */; };
+		DC7678C82012870D00940795 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678C12012870C00940795 /* SixthViewController.swift */; };
+		DC7678C92012870D00940795 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678C22012870D00940795 /* SecondViewController.swift */; };
+		DC7678CA2012870D00940795 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678C32012870D00940795 /* FirstViewController.swift */; };
+		DC7678CB2012870D00940795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678C42012870D00940795 /* ViewController.swift */; };
+		DC7678CF201287C900940795 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678CD201287C900940795 /* UIColor+Extensions.swift */; };
+		DC7678D0201287C900940795 /* String+Shortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678CE201287C900940795 /* String+Shortcuts.swift */; };
+		DC7678D32012886200940795 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678D22012886200940795 /* NewsItem.swift */; };
+		DC7678D5201288C700940795 /* Properties.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7678D4201288C700940795 /* Properties.plist */; };
+		DC7678D720128F1400940795 /* HelloWorldLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678D620128F1400940795 /* HelloWorldLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +61,7 @@
 		D82E9CDCAF3B1641A00625C7 /* Pods_MagicBulletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicBulletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC76788420127E1500940795 /* MagicBullet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBullet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC76788720127E1500940795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DC76788920127E1500940795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC76788920127E1500940795 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		DC76788C20127E1500940795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DC76788E20127E1500940795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC76789120127E1500940795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +72,21 @@
 		DC7678A320127E1500940795 /* MagicBulletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBulletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC7678A720127E1500940795 /* MagicBulletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBulletUITests.swift; sourceTree = "<group>"; };
 		DC7678A920127E1500940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7678B62012815D00940795 /* MiniProfileLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniProfileLayout.swift; sourceTree = "<group>"; };
+		DC7678B92012831900940795 /* nick.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nick.jpg; sourceTree = "<group>"; };
+		DC7678BB201285BA00940795 /* bernie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bernie.jpg; sourceTree = "<group>"; };
+		DC7678BE2012870C00940795 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		DC7678BF2012870C00940795 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		DC7678C02012870C00940795 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		DC7678C12012870C00940795 /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		DC7678C22012870D00940795 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DC7678C32012870D00940795 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DC7678C42012870D00940795 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC7678CD201287C900940795 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		DC7678CE201287C900940795 /* String+Shortcuts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Shortcuts.swift"; sourceTree = "<group>"; };
+		DC7678D22012886200940795 /* NewsItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
+		DC7678D4201288C700940795 /* Properties.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Properties.plist; sourceTree = "<group>"; };
+		DC7678D620128F1400940795 /* HelloWorldLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldLayout.swift; sourceTree = "<group>"; };
 		E7B9728F882E998C873843E9 /* Pods-MagicBulletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBulletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBulletUITests/Pods-MagicBulletUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E8330EBFF88AFB29F538EA25 /* Pods-MagicBullet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBullet.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -137,8 +167,12 @@
 		DC76788620127E1500940795 /* MagicBullet */ = {
 			isa = PBXGroup;
 			children = (
+				DC7678D12012884D00940795 /* Model */,
+				DC7678CC201287B500940795 /* Extensions */,
+				DC7678BD201286E400940795 /* Controller */,
+				DC7678B8201282F900940795 /* Resources */,
+				DC7678B52012812C00940795 /* View */,
 				DC76788720127E1500940795 /* AppDelegate.swift */,
-				DC76788920127E1500940795 /* ViewController.swift */,
 				DC76788B20127E1500940795 /* Main.storyboard */,
 				DC76788E20127E1500940795 /* Assets.xcassets */,
 				DC76789020127E1500940795 /* LaunchScreen.storyboard */,
@@ -163,6 +197,57 @@
 				DC7678A920127E1500940795 /* Info.plist */,
 			);
 			path = MagicBulletUITests;
+			sourceTree = "<group>";
+		};
+		DC7678B52012812C00940795 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DC7678B62012815D00940795 /* MiniProfileLayout.swift */,
+				DC7678D620128F1400940795 /* HelloWorldLayout.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC7678B8201282F900940795 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DC7678BB201285BA00940795 /* bernie.jpg */,
+				DC7678B92012831900940795 /* nick.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DC7678BD201286E400940795 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DC7678C32012870D00940795 /* FirstViewController.swift */,
+				DC7678C22012870D00940795 /* SecondViewController.swift */,
+				DC7678C02012870C00940795 /* ThirdViewController.swift */,
+				DC7678BF2012870C00940795 /* FourthViewController.swift */,
+				DC7678BE2012870C00940795 /* FifthViewController.swift */,
+				DC7678C12012870C00940795 /* SixthViewController.swift */,
+				DC7678C42012870D00940795 /* ViewController.swift */,
+				DC76788920127E1500940795 /* ProfileViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DC7678CC201287B500940795 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DC7678CE201287C900940795 /* String+Shortcuts.swift */,
+				DC7678CD201287C900940795 /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DC7678D12012884D00940795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC7678D22012886200940795 /* NewsItem.swift */,
+				DC7678D4201288C700940795 /* Properties.plist */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +366,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC7678BA2012831900940795 /* nick.jpg in Resources */,
+				DC7678D5201288C700940795 /* Properties.plist in Resources */,
 				DC76789220127E1500940795 /* LaunchScreen.storyboard in Resources */,
 				DC76788F20127E1500940795 /* Assets.xcassets in Resources */,
+				DC7678BC201285BA00940795 /* bernie.jpg in Resources */,
 				DC76788D20127E1500940795 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,10 +499,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -458,8 +550,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC76788A20127E1500940795 /* ViewController.swift in Sources */,
+				DC7678CB2012870D00940795 /* ViewController.swift in Sources */,
+				DC7678CA2012870D00940795 /* FirstViewController.swift in Sources */,
+				DC7678C92012870D00940795 /* SecondViewController.swift in Sources */,
+				DC7678D720128F1400940795 /* HelloWorldLayout.swift in Sources */,
+				DC7678C52012870D00940795 /* FifthViewController.swift in Sources */,
+				DC7678C82012870D00940795 /* SixthViewController.swift in Sources */,
+				DC7678B72012815D00940795 /* MiniProfileLayout.swift in Sources */,
+				DC7678D32012886200940795 /* NewsItem.swift in Sources */,
+				DC76788A20127E1500940795 /* ProfileViewController.swift in Sources */,
 				DC76788820127E1500940795 /* AppDelegate.swift in Sources */,
+				DC7678CF201287C900940795 /* UIColor+Extensions.swift in Sources */,
+				DC7678C72012870D00940795 /* ThirdViewController.swift in Sources */,
+				DC7678D0201287C900940795 /* String+Shortcuts.swift in Sources */,
+				DC7678C62012870D00940795 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

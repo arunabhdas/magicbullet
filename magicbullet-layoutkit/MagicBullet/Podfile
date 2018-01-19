@@ -7,7 +7,7 @@ target 'MagicBullet' do
 
   # Pods for MagicBullet
   pod 'LayoutKit'
-
+  pod 'YogaKit', '~> 1.5'
   target 'MagicBulletTests' do
     inherit! :search_paths
     # Pods for testing

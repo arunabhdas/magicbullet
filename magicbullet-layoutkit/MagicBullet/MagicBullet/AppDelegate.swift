@@ -14,6 +14,47 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        
+        let height = application.statusBarFrame.size.height
+        print("---------------------------------------------------")
+        print(NSString(format: "%.2f", height))
+        print("---------------------------------------------------")
+        // window?.rootViewController = ViewController()
+        let nav1 = UINavigationController()
+        let first = FirstViewController(nibName: nil, bundle: nil)
+        nav1.viewControllers = [first]
+        nav1.tabBarItem = UITabBarItem(title: "News", image: UIImage(named:"News"), tag: 1)
+        
+        let nav2 = UINavigationController()
+        let second = SecondViewController(nibName: nil, bundle: nil)
+        nav2.viewControllers = [second]
+        nav2.tabBarItem = UITabBarItem(title: "Catalog", image: UIImage(named:"Catalog"), tag: 2)
+        
+        let nav3 = UINavigationController()
+        let third = ThirdViewController(nibName: nil, bundle: nil)
+        nav3.viewControllers = [third]
+        nav3.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named:"Home"), tag: 3)
+        
+        let nav4 = UINavigationController()
+        let fourth = FourthViewController(nibName: nil, bundle: nil)
+        nav4.viewControllers = [fourth]
+        nav4.tabBarItem = UITabBarItem(title: "About", image: UIImage(named:"About"), tag: 4)
+        
+        let nav5 = UINavigationController()
+        let fifth = FifthViewController(nibName: nil, bundle: nil)
+        nav5.viewControllers = [fifth]
+        nav5.tabBarItem = UITabBarItem(title: "More", image: UIImage(named:"IconMore"), tag: 5)
+        
+        let tabs = UITabBarController()
+        tabs.viewControllers = [nav1, nav2, nav3, nav4, nav5]
+        
+        
+        window?.backgroundColor = .white
+        
+        self.window!.rootViewController = tabs;
+        window?.makeKeyAndVisible()
         return true
     }
 
