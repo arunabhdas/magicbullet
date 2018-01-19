@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85D548F6392EBBD468725D6D /* Pods_MagicBullet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3063D24C4D6E3BADBEB857 /* Pods_MagicBullet.framework */; };
+		BB73C48F5A348D21A6CBF6A4 /* Pods_MagicBulletUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82E9CDCAF3B1641A00625C7 /* Pods_MagicBulletUITests.framework */; };
+		BC519C124B6E2123597BBA08 /* Pods_MagicBulletTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAC1148CA433C77544C4E35 /* Pods_MagicBulletTests.framework */; };
+		DC76788820127E1500940795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76788720127E1500940795 /* AppDelegate.swift */; };
+		DC76788A20127E1500940795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76788920127E1500940795 /* ViewController.swift */; };
+		DC76788D20127E1500940795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC76788B20127E1500940795 /* Main.storyboard */; };
+		DC76788F20127E1500940795 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC76788E20127E1500940795 /* Assets.xcassets */; };
+		DC76789220127E1500940795 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC76789020127E1500940795 /* LaunchScreen.storyboard */; };
+		DC76789D20127E1500940795 /* MagicBulletTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC76789C20127E1500940795 /* MagicBulletTests.swift */; };
+		DC7678A820127E1500940795 /* MagicBulletUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7678A720127E1500940795 /* MagicBulletUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC76789920127E1500940795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC76787C20127E1500940795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC76788320127E1500940795;
+			remoteInfo = MagicBullet;
+		};
+		DC7678A420127E1500940795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC76787C20127E1500940795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC76788320127E1500940795;
+			remoteInfo = MagicBullet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05EEE8A8BD25C21F43E6C422 /* Pods-MagicBullet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBullet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet.debug.xcconfig"; sourceTree = "<group>"; };
+		2B3063D24C4D6E3BADBEB857 /* Pods_MagicBullet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicBullet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFBE8925B3477C2C6646051 /* Pods-MagicBulletTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBulletTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBulletTests/Pods-MagicBulletTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E9CB79F1C7913976E8795E4 /* Pods-MagicBulletUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBulletUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBulletUITests/Pods-MagicBulletUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		45FDAA80EB396CE6E2FF34F4 /* Pods-MagicBulletTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBulletTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBulletTests/Pods-MagicBulletTests.release.xcconfig"; sourceTree = "<group>"; };
+		7BAC1148CA433C77544C4E35 /* Pods_MagicBulletTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicBulletTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82E9CDCAF3B1641A00625C7 /* Pods_MagicBulletUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicBulletUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76788420127E1500940795 /* MagicBullet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicBullet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76788720127E1500940795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC76788920127E1500940795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC76788C20127E1500940795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC76788E20127E1500940795 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC76789120127E1500940795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC76789320127E1500940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC76789820127E1500940795 /* MagicBulletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBulletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC76789C20127E1500940795 /* MagicBulletTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBulletTests.swift; sourceTree = "<group>"; };
+		DC76789E20127E1500940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC7678A320127E1500940795 /* MagicBulletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicBulletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7678A720127E1500940795 /* MagicBulletUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicBulletUITests.swift; sourceTree = "<group>"; };
+		DC7678A920127E1500940795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7B9728F882E998C873843E9 /* Pods-MagicBulletUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBulletUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBulletUITests/Pods-MagicBulletUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E8330EBFF88AFB29F538EA25 /* Pods-MagicBullet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicBullet.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC76788120127E1500940795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D548F6392EBBD468725D6D /* Pods_MagicBullet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76789520127E1500940795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC519C124B6E2123597BBA08 /* Pods_MagicBulletTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7678A020127E1500940795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB73C48F5A348D21A6CBF6A4 /* Pods_MagicBulletUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61154A57E07131245685D8B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05EEE8A8BD25C21F43E6C422 /* Pods-MagicBullet.debug.xcconfig */,
+				E8330EBFF88AFB29F538EA25 /* Pods-MagicBullet.release.xcconfig */,
+				2CFBE8925B3477C2C6646051 /* Pods-MagicBulletTests.debug.xcconfig */,
+				45FDAA80EB396CE6E2FF34F4 /* Pods-MagicBulletTests.release.xcconfig */,
+				2E9CB79F1C7913976E8795E4 /* Pods-MagicBulletUITests.debug.xcconfig */,
+				E7B9728F882E998C873843E9 /* Pods-MagicBulletUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		83E78FEB27924EF39A50E1F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3063D24C4D6E3BADBEB857 /* Pods_MagicBullet.framework */,
+				7BAC1148CA433C77544C4E35 /* Pods_MagicBulletTests.framework */,
+				D82E9CDCAF3B1641A00625C7 /* Pods_MagicBulletUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC76787B20127E1500940795 = {
+			isa = PBXGroup;
+			children = (
+				DC76788620127E1500940795 /* MagicBullet */,
+				DC76789B20127E1500940795 /* MagicBulletTests */,
+				DC7678A620127E1500940795 /* MagicBulletUITests */,
+				DC76788520127E1500940795 /* Products */,
+				61154A57E07131245685D8B1 /* Pods */,
+				83E78FEB27924EF39A50E1F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC76788520127E1500940795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC76788420127E1500940795 /* MagicBullet.app */,
+				DC76789820127E1500940795 /* MagicBulletTests.xctest */,
+				DC7678A320127E1500940795 /* MagicBulletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC76788620127E1500940795 /* MagicBullet */ = {
+			isa = PBXGroup;
+			children = (
+				DC76788720127E1500940795 /* AppDelegate.swift */,
+				DC76788920127E1500940795 /* ViewController.swift */,
+				DC76788B20127E1500940795 /* Main.storyboard */,
+				DC76788E20127E1500940795 /* Assets.xcassets */,
+				DC76789020127E1500940795 /* LaunchScreen.storyboard */,
+				DC76789320127E1500940795 /* Info.plist */,
+			);
+			path = MagicBullet;
+			sourceTree = "<group>";
+		};
+		DC76789B20127E1500940795 /* MagicBulletTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC76789C20127E1500940795 /* MagicBulletTests.swift */,
+				DC76789E20127E1500940795 /* Info.plist */,
+			);
+			path = MagicBulletTests;
+			sourceTree = "<group>";
+		};
+		DC7678A620127E1500940795 /* MagicBulletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC7678A720127E1500940795 /* MagicBulletUITests.swift */,
+				DC7678A920127E1500940795 /* Info.plist */,
+			);
+			path = MagicBulletUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC76788320127E1500940795 /* MagicBullet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7678AC20127E1500940795 /* Build configuration list for PBXNativeTarget "MagicBullet" */;
+			buildPhases = (
+				754452C7BCC4C690CBCF4604 /* [CP] Check Pods Manifest.lock */,
+				DC76788020127E1500940795 /* Sources */,
+				DC76788120127E1500940795 /* Frameworks */,
+				DC76788220127E1500940795 /* Resources */,
+				B89EE92FA36A99AA151FF307 /* [CP] Embed Pods Frameworks */,
+				CAC53E8A26BB6A50C64A32FA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicBullet;
+			productName = MagicBullet;
+			productReference = DC76788420127E1500940795 /* MagicBullet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC76789720127E1500940795 /* MagicBulletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7678AF20127E1500940795 /* Build configuration list for PBXNativeTarget "MagicBulletTests" */;
+			buildPhases = (
+				4101B23123563FE18A69DBA1 /* [CP] Check Pods Manifest.lock */,
+				DC76789420127E1500940795 /* Sources */,
+				DC76789520127E1500940795 /* Frameworks */,
+				DC76789620127E1500940795 /* Resources */,
+				348B9F18E7304E2B42519FE7 /* [CP] Embed Pods Frameworks */,
+				C706FD4FB44F3C441BF54AC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC76789A20127E1500940795 /* PBXTargetDependency */,
+			);
+			name = MagicBulletTests;
+			productName = MagicBulletTests;
+			productReference = DC76789820127E1500940795 /* MagicBulletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC7678A220127E1500940795 /* MagicBulletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC7678B220127E1500940795 /* Build configuration list for PBXNativeTarget "MagicBulletUITests" */;
+			buildPhases = (
+				318912D9DB64F606811542D8 /* [CP] Check Pods Manifest.lock */,
+				DC76789F20127E1500940795 /* Sources */,
+				DC7678A020127E1500940795 /* Frameworks */,
+				DC7678A120127E1500940795 /* Resources */,
+				018D2DCA930A2F2F6173CD4A /* [CP] Embed Pods Frameworks */,
+				515DD310BF30B743A529DAAF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC7678A520127E1500940795 /* PBXTargetDependency */,
+			);
+			name = MagicBulletUITests;
+			productName = MagicBulletUITests;
+			productReference = DC7678A320127E1500940795 /* MagicBulletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC76787C20127E1500940795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = arunabhdas;
+				TargetAttributes = {
+					DC76788320127E1500940795 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DC76789720127E1500940795 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC76788320127E1500940795;
+					};
+					DC7678A220127E1500940795 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC76788320127E1500940795;
+					};
+				};
+			};
+			buildConfigurationList = DC76787F20127E1500940795 /* Build configuration list for PBXProject "MagicBullet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC76787B20127E1500940795;
+			productRefGroup = DC76788520127E1500940795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC76788320127E1500940795 /* MagicBullet */,
+				DC76789720127E1500940795 /* MagicBulletTests */,
+				DC7678A220127E1500940795 /* MagicBulletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC76788220127E1500940795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76789220127E1500940795 /* LaunchScreen.storyboard in Resources */,
+				DC76788F20127E1500940795 /* Assets.xcassets in Resources */,
+				DC76788D20127E1500940795 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76789620127E1500940795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC7678A120127E1500940795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018D2DCA930A2F2F6173CD4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicBulletUITests/Pods-MagicBulletUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		318912D9DB64F606811542D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicBulletUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		348B9F18E7304E2B42519FE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicBulletTests/Pods-MagicBulletTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4101B23123563FE18A69DBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicBulletTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		515DD310BF30B743A529DAAF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicBulletUITests/Pods-MagicBulletUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		754452C7BCC4C690CBCF4604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicBullet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B89EE92FA36A99AA151FF307 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LayoutKit/LayoutKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LayoutKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C706FD4FB44F3C441BF54AC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicBulletTests/Pods-MagicBulletTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC53E8A26BB6A50C64A32FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MagicBullet/Pods-MagicBullet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC76788020127E1500940795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76788A20127E1500940795 /* ViewController.swift in Sources */,
+				DC76788820127E1500940795 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76789420127E1500940795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC76789D20127E1500940795 /* MagicBulletTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC76789F20127E1500940795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7678A820127E1500940795 /* MagicBulletUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC76789A20127E1500940795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC76788320127E1500940795 /* MagicBullet */;
+			targetProxy = DC76789920127E1500940795 /* PBXContainerItemProxy */;
+		};
+		DC7678A520127E1500940795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC76788320127E1500940795 /* MagicBullet */;
+			targetProxy = DC7678A420127E1500940795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC76788B20127E1500940795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC76788C20127E1500940795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC76789020127E1500940795 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC76789120127E1500940795 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7678AA20127E1500940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC7678AB20127E1500940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC7678AD20127E1500940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EEE8A8BD25C21F43E6C422 /* Pods-MagicBullet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicBullet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.MagicBullet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC7678AE20127E1500940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8330EBFF88AFB29F538EA25 /* Pods-MagicBullet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicBullet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.MagicBullet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC7678B020127E1500940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CFBE8925B3477C2C6646051 /* Pods-MagicBulletTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicBulletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.MagicBulletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBullet.app/MagicBullet";
+			};
+			name = Debug;
+		};
+		DC7678B120127E1500940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45FDAA80EB396CE6E2FF34F4 /* Pods-MagicBulletTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicBulletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.MagicBulletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicBullet.app/MagicBullet";
+			};
+			name = Release;
+		};
+		DC7678B320127E1500940795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9CB79F1C7913976E8795E4 /* Pods-MagicBulletUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicBulletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.MagicBulletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicBullet;
+			};
+			name = Debug;
+		};
+		DC7678B420127E1500940795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B9728F882E998C873843E9 /* Pods-MagicBulletUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MagicBulletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arunabhdas.MagicBulletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MagicBullet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC76787F20127E1500940795 /* Build configuration list for PBXProject "MagicBullet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7678AA20127E1500940795 /* Debug */,
+				DC7678AB20127E1500940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7678AC20127E1500940795 /* Build configuration list for PBXNativeTarget "MagicBullet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7678AD20127E1500940795 /* Debug */,
+				DC7678AE20127E1500940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7678AF20127E1500940795 /* Build configuration list for PBXNativeTarget "MagicBulletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7678B020127E1500940795 /* Debug */,
+				DC7678B120127E1500940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC7678B220127E1500940795 /* Build configuration list for PBXNativeTarget "MagicBulletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7678B320127E1500940795 /* Debug */,
+				DC7678B420127E1500940795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC76787C20127E1500940795 /* Project object */;
+}

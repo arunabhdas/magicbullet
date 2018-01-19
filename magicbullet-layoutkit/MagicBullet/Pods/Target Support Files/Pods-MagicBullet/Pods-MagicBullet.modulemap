@@ -1,0 +1,6 @@
+framework module Pods_MagicBullet {
+  umbrella header "Pods-MagicBullet-umbrella.h"
+
+  export *
+  module * { export * }
+}
