@@ -26,7 +26,7 @@ class FirstViewController: UIViewController {
         
         // let contentView = UIView()
         let contentView = UIImageView(frame: .zero)
-        let image = UIImage(named: "RoamHome")
+        let image = UIImage(named: "News")
         contentView.image = image
         contentView.backgroundColor = .lightGray
         contentView.configureLayout { (layout) in
